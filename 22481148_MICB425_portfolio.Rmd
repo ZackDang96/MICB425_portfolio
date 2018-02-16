@@ -1,0 +1,70 @@
+---
+title: "MICB425"
+author: "Zhong (Zack) Dang 22481148"
+date: "January 21, 2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+##Data Science Friday 5
+
+```{r tempF, echo=TRUE}
+library(tidyverse)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###Exercise 1
+
+library(phyloseq)
+library(ggplot2)
+library(dplyr)
+library(knitr)
+
+load(file="metadata.RData")
+ggplot(metadata, aes(x=NH4_uM, y=Depth_m)) +
+geom_point(color="purple", shape=17)
+
+###Exercise 2
+
+load(file="exercise2.RData")
+ggplot(exercise2, aes(x=Temperature_F, y=Depth_m)) +
+geom_point()
+
+###Exercise 3
+
+load(file="physeq.RData")
+physeq_percent = transform_sample_counts(physeq, function(x) 100 * x/sum(x))
+plot_bar(physeq_percent, fill="Order") +
+    geom_bar(aes(fill=Order), stat="identity") +
+  ggtitle("Saanich Inlet Taxonomic Abundance (10-200m)") +
+  xlab("Depth of Sample") 
+
+###Exercise 4
+
+ex4 = select(metadata, ends_with("uM"), Depth_m)
+
+facet = gather(metadata, key = "Nutrient", value = "uM", ends_with("uM"))
+
+ggplot(facet, aes(x=Depth_m, y=uM))+
+  geom_line()+
+  geom_point()+
+  facet_wrap(~Nutrient, scales="free_y") +
+  theme(legend.position="none")
+```
+
+

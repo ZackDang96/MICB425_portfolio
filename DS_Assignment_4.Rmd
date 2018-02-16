@@ -1,0 +1,18 @@
+---
+title: "DS_4_Assignment"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r tempF, echo=TRUE}
+ggplot(metadata, aes(x=NH4_uM, y=Depth_m)) +
+geom_point(color="purple", shape=17)
+
+ggplot(exercise2, aes(x=Temperature_F, y=Depth_m)) +
+geom_point()
+```
+
+
