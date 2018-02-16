@@ -2,6 +2,7 @@
 title: "MICB425"
 author: "Zhong (Zack) Dang 22481148"
 date: "January 21, 2018"
+<<<<<<< HEAD
 output:
   pdf_document: default
   html_document: default
@@ -68,3 +69,8 @@ ggplot(facet, aes(x=Depth_m, y=uM))+
 ```
 
 
+=======
+output: html_document
+---
+
+>>>>>>> 712475d03d7d81f41d57db35ef69fd62adde39d5
