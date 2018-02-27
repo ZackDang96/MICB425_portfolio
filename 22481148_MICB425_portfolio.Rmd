@@ -3,17 +3,310 @@ title: "MICB425"
 author: "Zhong (Zack) Dang 22481148"
 date: "January 21, 2018"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
-##Data Science Friday 5
+#Module 1
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Evidence Worksheet_01 for "Prokaryotes: The Unseen Majority"
+
+### Learning Objectives
+Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems.
+
+### General Questions
+#### What were the main questions being asked?
+
+This article asks and attempts to answer the following questions:
+
+1. What is the total number of prokaryotic cells in the 3 main habitats and the cumulative total on the planet?
+
+2. What is the total amount of carbon contained in prokaryotic cells in the 3 main habitats and the global total?
+
+3. What is the average turnover rate and productivity of prokaryotes in the 3 main habitats and the global total?
+
+#### What were the primary methodological approaches used?
+
+Cell density data from samples ofthe 3 main representative habitats (Aquatic, soil and subsurface environments) were analyzed and total number estimations were generated. Aquatic numbers were estimated from mean sample values of several primary studies. Soil numbers were estimated based on cultivated soil sample numbers.Subsurface numbers were extrapolated from various studies' sample data, but also estimated from calculating average porosity of terrestrial subsurface environments and average subsurface prokaryotic volume, and also from groundwater sample data. Carbon content was estimated in soil and subsurface environments as half the dry weight of the average prokaryotic cell. In aquatic environments, the upper estimate of carbon per cell is used. 
+
+#### Summarize the main results or findings. 
+
+The total number of prokaryotes on Earth is estimated to be 4-6x10^30 cells and the total amount of prokarotic carbon is esitmated to be 350-550 Pg, which is 60-100% of the total carbon in plants. Prokaryotes also cumulativey contain 10 times the amount of phosphorous and nitrogen than plants. Heterotropic prokaryote turnover is fastest in the upper 200m of the ocean and slowest in subsurface environments. The estimated global cellular production rate is 1.7x10^30 cells/yr. This also leads to a large capacity for genetic diversification through mutation.
+
+#### Do new questions arise from the results?
+
+1. How can subsurface estimation methods be refined to more accurately characterize the subsurface prokaryotic world?
+
+2. How can phylogenetic analysis methods be changed to account for the high degree of diversity and mutation rate in prokaryotes?
+
+3. With the differences in prokaryotic genomes and evolution through mutation, how do we definte a prokaryotic species?
+
+#### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+
+Overall, the paper did a decent job of combining sample data from multiple papers and generating population estimates of the 3 major habitats and representing this data in easy-to-read tables. However, much of this data is based on estimation, with the extrapolation of subsurface numbers having a high degree of error. Some assumptions made include the use of an average prokaryotic cell volume and an average carbon content per cell value, on which global total estimates are made. Despite this, the evidence is adequate given our current models and techniques and thus the conclusions are valid. The paper rightfully acknowledges the limitations of some methods and discrepancies between studies. With the development of sampling methods and improved metagenomic analytical techniques, more accurate estimations can be made in the future. 
+
+## Evidence Worksheet_02 “Life and the Evolution of Earth’s Atmosphere”
+
+### Learning objectives: 
+Comment on the emergence of microbial life and the evolution of Earth systems
+    
+#### Indicate the key events in the evolution of Earth systems at each approximate moment in the time series. If times need to be adjusted or added to the timeline to fully account for the development of Earth systems, please do so. 
+
+    + 4.6 billion years ago - Formation of the Solar System from a local accretion disk, creating the Sun and the planets.
+    
+    + 4.2 billion years ago - Formation of the oceans, creating the land-sea surface we know today. There is some evidence that plate tectonics started at this time, as well as the first amino acids and RNA.
+    
+    + 3.8 billion years ago - Earliest evidence of life in the form of cells.
+    
+    + 3.75 billion years ago - A group splits off from the last common ancestor and forms the domain, Archaea.
+    
+    + 3.5 billion years ago - Evolution of the domain, Prokaryotes and evolution of photosynthesis. There is fossil evidence for the formation of microbial aggregations and biofilms. 
+    
+    + 3.0 billion years ago - First evidence for the presence of viruses
+    
+    + 2.7 billion years ago - Evolution of cyanobacteria
+    
+    + 2.2 billion years ago - The Great Oxygenation Event, brought upon by massed photosynthesis by cyanobacteria. 
+    
+    + 2.1 billion years ago - Evolution of Eukarya and later (2.0 Gya), evidence of endosymbiosis by Eukarya to form chloroplasts and mitochondria
+    
+    + 1.3 billion years ago - Lineages that eventually formed plant, animal and fungal kingdoms split off from the main eukaryote ancestral line
+    
+    + 550,000 years ago - First land plants evolved
+    
+    + 200,000 years ago - Evolution of mammals
+
+
+#### Describe the dominant physical and chemical characteristics of Earth systems at the following waypoints:  
+
+    + Hadean - The early Hadean might have been characterized by global glaciation due to a weak, young Sun. Later, a very hot atmosphere comprised mainly of water vapour and CO2 formed, with a silica crust on the surface
+    
+    + Archean - About 3 times hotter than the current Earth, with a liquid water acidic ocean and a mostly CO2 atmosphere
+    
+    + Precambrian - The evolution of photosynthesis and the massed expansion of cyanobacteria caused a huge increase in atmospheric oxygen, called the Great Oxygenation Event
+    
+    + Proterozoic  - Oxygen rich, hot atmosphere
+    
+    + Phanerozoic  - Exolution of land plants contributes to a further increase in atmospheric oxygen levels. The Earth is also slightly cooler. 
+
+## Evidence Worksheet_03 "The Anthropocene"
+
+### Learning Objectives
+Evaluate human impacts on the ecology and biogeochemistry of Earth systems.
+
+### General Questions
+#### What were the main questions being asked?
+
+1. When did the Anthropocene begin?
+
+2. Have humans created imbalances in modern biogeochmical cycles (particularly the N and C cycles), and how would this affect the cycles of the future?
+
+3. How will the engineered Anthropocene affect global biodiversity and the climate?
+
+#### What were the primary methodological approaches used?
+
+
+
+#### Summarize the main results or findings. 
+
+
+
+#### Do new questions arise from the results?
+
+
+
+#### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+
+
+
+## Problem set_01
+
+## Problem set_02 ??Microbial Engines??
+
+### Learning objectives: 
+Discuss the role of microbial diversity and formation of coupled metabolism in driving global biogeochemical cycles.
+
+#### Specific Questions:
+* What are the primary geophysical and biogeochemical processes that create and sustain conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter and energy transformation and how are they interconnected?  
+
+* Why is Earth’s redox state considered an emergent property?
+  
+
+* How do reversible electron transfer reactions give rise to element and nutrient cycles at different ecological scales? What strategies do microbes use to overcome thermodynamic barriers to reversible electron flow?  
+
+* Using information provided in the text, describe how the nitrogen cycle partitions between different redox “niches” and microbial groups. Is there a relationship between the nitrogen cycle and climate change?   
+
+* What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?  
+
+* On what basis do the authors consider microbes the guardians of metabolism?  
+
+
+
+##Data Science Friday 1 - Installation
+
+###Installation Screenshots
+
+![Git Bash](Capture1.JPG)
+
+![RStudio](Capture2.JPG)
+
+![GitHub](Capture3.JPG)
+
+##Data Science Friday 2 - Introduction to Git
+
+###Instructions for portfolio repo creation, initialization and pushing to GitHub
+
+####Configure Git command line to GitHub online account
+
+command: git config --global user.name "Your Name"
+
+command: git config --global user.email "youremail@email.com"
+
+####Locate to "Documents" folder and confirm location
+
+command: cd ~/Documents
+
+command: pwd
+
+####Clone GitHub web MICB425 repository to "Documents"
+
+command: git clone https://github.com/EDUCE-UBC/MICB425 MICB425_materials
+
+####Check MICB425_materials status and pulling 
+
+command: git status
+
+command: git fetch
+
+command: git pull
+
+####Create master repository in "Documents" and create empty .txt file
+
+command: mkdir MICB425_portfolio
+
+command: touch ID.txt
+
+####Initiate and push local repository (after creating online repo on GitHub)
+
+command: git init
+
+command: git add.
+
+command: git commit -m "First commit"
+
+command: git remote add origin https://remote_repository_URL
+
+command: git remote -v
+
+command: git push -u origin master
+
+##Data Science Friday 3 - Pretty_html Challenge
+
+#Pretty_html
+
+### *Zhong Zack Dang (22481148)*
+### *version Febuary 22 2018*
+
+* [R Markdown PDF Challenge](#r markdown pdf challenge)
+    + [Challenge Goals](##challenge goals)
+    + [Here's a header!](###heres a header)
+        + [Table Time](###Table Time)
+
+#R Markdown PDF Challenge
+
+The following assignment is an exercise for the reproduction of this .html document using the RStudio and Rmarkdown tools we've shown you in  
+class. Hopefully by the end of this, you won't feel at all the way this poor PhD student does. We're here to help, and when it comes to R, the  
+internet is a really valuable resource. This open-source program has all kinds of tutorials online.
+
+![](http://www.phdcomics.com/comics/archive/phd011718s.gif)
+
+http://phdcomics.com/ Comic posted 1-17-2018
+
+##Challenge Goals
+The goal of this R Markdown html challenge is to give you an opportunity to play with a bunch of different RMarkdown formatting. Consider it a  
+chance to flex your RMarkdown muscles. Your goal is to write your own RMarkdown that rebuilds this html document as close to the original as  
+possible. So, yes, this means you get to copy my irreverant tone exactly in your own Markdowns. It’s a little window into my psyche. Enjoy =)
+
+**hint: go to the [PhD Comics website](https://github.com/EDUCE-UBC/MICB425) to see if you can find the image above**  
+*If you can't find that exact image, just find a comparable image from the PhD Comics website and include it in your markdown*
+
+###Here's a header!
+
+Let’s be honest, this header is a little arbitrary. But show me that you can reproduce headers with different levels please. This is a level 3 header, for your reference (you can most easily tell this from the table of contents).
+
+####Another header, now with maths
+
+Perhaps you're already confused by the whole markdown thing. Maybe you're so confused you've forgotten how to add. Never fear! ~~A  
+calculator~~ R is here:
+
+$$1231521+12341556$$
+$$1.234156e+13$$
+
+###Table Time
+
+Or maybe, after you’ve added those numbers, you feel like it’s about time for a table!  
+I’m going to leave all the guts of the coding here so you can see how libraries (R packages) are loaded into R (more on that later). It’s not terribly  
+pretty, but it hints at how R works and how you will use it in the future. The summary function used below is a nice data exploration function that  
+you may use in the ^future^.
+
+
+```{r results = 'asis'}
+library(knitr)
+kable(summary(cars), caption = "I made this table with kable in the knitr package library")
+```
+
+And now you’ve almost finished your first RMarkdown! Feeling excited?  We are! In fact, we’re so excited that maybe we need a big finale eh?  
+Here’s ours! Include a fun gif of your choice!
+
+![](https://media.giphy.com/media/RyXVu4ZW454IM/giphy.gif)
+
+##Data Science Friday 4 - Working with Data
+
+####Exercise 1 - Importing data under correct parameters
+
+```
+library(tidyverse)
+read.table(file="Saanich.OTU.txt", header=TRUE, row.names=1, sep="\t", na.strings=c("NAN", "NA", "."))
+OTU = read.table(file="Saanich.OTU.txt", header=TRUE, row.names=1, sep="\t")
+```
+
+####Exercise 2 - Selecting data
+
+```{r}
+library(dplyr)
+
+metadata = read.table(file="Saanich.metadata.txt", header=TRUE, row.names=1, sep="\t")
+
+filter(metadata, CH4_nM > 100 & Temperature_C < 10) %>%
+  select(Depth_m, Temperature_C, CH4_nM)
+```
+
+####Exercise 2 - Mutating data
+
+```{r}
+library(dplyr)
+
+metadata = read.table(file="Saanich.metadata.txt", header=TRUE, row.names=1, sep="\t")
+
+select(metadata, ends_with("nM")) %>%
+  mutate(N2O_uM = N2O_nM/1000) %>%
+  mutate(Std_N2O_uM = Std_N2O_nM/1000) %>%
+  mutate(CH4_uM = CH4_nM/1000) %>%
+  mutate(Std_CH4_uM = Std_CH4_nM/1000) 
+```
+
+##Data Science Friday 5 - Plotting Data
 
 ```{r tempF, echo=TRUE}
 library(tidyverse)
+```
 
-###Exercise 1
+###Exercise 1 - Plotting with ggplot
 
+```{r}
 library(phyloseq)
 library(ggplot2)
 library(dplyr)
@@ -22,24 +315,30 @@ library(knitr)
 load(file="metadata.RData")
 ggplot(metadata, aes(x=NH4_uM, y=Depth_m)) +
 geom_point(color="purple", shape=17)
+```
 
-###Exercise 2
+###Exercise 2 - Plotting with ggplot and dplyr
 
+```{r}
 load(file="exercise2.RData")
 ggplot(exercise2, aes(x=Temperature_F, y=Depth_m)) +
 geom_point()
+```
 
-###Exercise 3
+###Exercise 3 - Plotting with ggplot and phyloseq
 
+```{r}
 load(file="physeq.RData")
 physeq_percent = transform_sample_counts(physeq, function(x) 100 * x/sum(x))
 plot_bar(physeq_percent, fill="Order") +
     geom_bar(aes(fill=Order), stat="identity") +
   ggtitle("Saanich Inlet Taxonomic Abundance (10-200m)") +
   xlab("Depth of Sample") 
+```
 
-###Exercise 4
+###Exercise 4 - Faceting
 
+```{r}
 ex4 = select(metadata, ends_with("uM"), Depth_m)
 
 facet = gather(metadata, key = "Nutrient", value = "uM", ends_with("uM"))
@@ -50,5 +349,60 @@ ggplot(facet, aes(x=Depth_m, y=uM))+
   facet_wrap(~Nutrient, scales="free_y") +
   theme(legend.position="none")
 ```
+
+#Module 2
+
+## Problem set_03 ??Metagenomics: Genomic Analysis of Microbial Communities??
+
+### Learning objectives: 
+Specific emphasis should be placed on the process used to find the answer. Be as comprehensive as possible e.g. provide URLs for web sources, literature citations, etc.  
+*(Reminders for how to format links, etc in RMarkdown are in the RMarkdown Cheat Sheets)*
+
+#### Specific Questions:
+* How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?
+  
+2016: 89 bact phyla, 20 archael phyla, determined via small 16S rRNA databases, but there could be up to 1500 bact phyla (microbes in the "shadow biosphere")
+
+* How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from?
+  
+thousands, 
+
+* What types of on-line resources are available for warehousing and/or analyzing environmental sequence information (provide names, URLS and applications)?  
+
+#####Shotgun metagenomics
+
+Databases - MG-RAST, NCBI-refseq, ING-/M
+
+Assembly - EULER
+
+Binning - S-GSOM
+
+Annotation - KEGG
+
+Analysis pipelines - MEGAN 5
+
+#####Marker gene metagnomics
+
+Standalone Software - OTUbase
+
+Analysis pipelines - SILVA
+
+Denoising - AmpliconNoise
+
+Databases - Ribosomal Database Project (RDP) 
+
+* What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?   
+
+* What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?  
+
+the process of grouping sequences that come from a single genome
+
+types of algorithms: align sequences to database, group to each other base don DNA characteristics (GC content, codon usage)
+
+risks: incomplete coverage of genome sequence (partial data), contamination from different phylogeny
+
+* Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?  
+
+funcitonal screens (biochemical tests), 3rd generation sequencing (nanopore) good hybrid between single cell sequencing and shotgun sequencing, single cell sequencing, FISH probe, possible to combine methods?
 
 
