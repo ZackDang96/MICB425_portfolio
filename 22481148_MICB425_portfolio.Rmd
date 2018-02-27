@@ -7,6 +7,37 @@ output:
   pdf_document: default
 ---
 
+* Installation check
+    + Completion status:
+    + Comments:
+* Portfolio repo setup
+    + Completion status: 
+    + Comments:
+* RMarkdown Pretty html Challenge
+    + Completion status:
+    + Comments:
+* Evidence worksheet_01
+    + Completion status:
+    + Comments:
+* Evidence worksheet_02
+    + Completion status:
+    + Comments:
+* Evidence worksheet_03
+    + Completion status:
+    + Comments:
+* Problem Set_01
+    + Completion status:
+    + Comments:
+* Problem Set_02
+    + Completion status:
+    + Comments:
+* Writing assessment_01
+    + Completion status:
+    + Comments:
+* Additional Readings
+    + Completion status:
+    + Comments: 
+
 #Module 1
 
 ```{r setup, include=FALSE}
@@ -349,6 +380,8 @@ ggplot(facet, aes(x=Depth_m, y=uM))+
   facet_wrap(~Nutrient, scales="free_y") +
   theme(legend.position="none")
 ```
+
+##Module 1 References
 
 #Module 2
 
