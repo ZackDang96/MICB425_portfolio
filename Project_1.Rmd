@@ -1,0 +1,14 @@
+---
+title: "Project_1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(phyloseq)
+library(magrittr)
+
+load("data/mothur_phyloseq.RData")
+```
+

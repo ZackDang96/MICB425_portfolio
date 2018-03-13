@@ -1,0 +1,113 @@
+---
+title: "Problem_set_04"
+output: html_document
+---
+###Part 1: Description and enumeration
+```{r}
+library(kableExtra)
+library(knitr)
+library(tidyverse)
+```
+
+```{r}
+Community_total1 = data.frame(
+  number = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20),
+  name = c("kiss", "red short string", "red long string", "white spiral", "mike ike", "watermelon", "gummy bear", "marshmallow bear", "lego square", "lego rectangle", "coke", "spider", "big round candy", "skittle", "m&m", "fish", "elongated noodle", "elongated cloud", "elongated oval", "elongated diamond"),
+  characteristics = c("teardrop shape", "short string", "long string", "large ellipsoid flat", "rounded rod", "rectangular", "clear bear shape", "opaque bear shape", "large square brick", "small rectangular brick", "coke bottle shape", "spider shape", "sphere", "ellipsoid round", "small elipsoid flat", "fish shape", "short noodle shape", "cloud shape", "oval", "diamond"),
+  occurences = c(16,6,10,3,172,1,99,3,3,15,3,6,24,187,243,1,4,3,1,1)
+)
+```
+
+###Part 2: Collector's Curve
+```{r}
+Community_sample1 = data.frame(
+  x = c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20),
+  y = c(0,2,6,7,41,41,57,57,57,62,62,64,70,110,164,164,164,164,165,165)
+)
+```
+
+```{r}
+ggplot(Community_sample1, aes(x=x, y=y)) +
+  geom_point() +
+  geom_smooth() +
+  labs(x="Cumulative number of individuals classified", y="Cumulative number of species observed")
+```
+
+###Part 3: Diversity estimates (alpha diversity)
+
+####Simpson Reciprocal Index (Community)
+```{r}
+species1 = 16/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species2 = 6/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species3 = 10/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species4 = 3/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species5 = 172/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species6 = 1/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species7 = 99/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species8 = 3/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species9 = 3/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species10 = 15/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species11 = 3/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species12 = 6/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species13 = 24/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species14 = 187/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species15 = 243/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species16 = 1/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species17 = 4/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species18 = 3/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species19 = 1/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+species20 = 1/(16+6+10+3+172+1+99+3+3+15+3+6+24+187+243+1+4+3+1+1)
+
+1 / (species1^2 + species2^2 + species3^2 + species4^2 + species5^2 + species6^2 + species7^2 + species8^2 + species9^2 + species10^2 + species11^2 + species12^2 + species13^2 + species14^2 + species15^2 + species16^2 + species17^2 + species18^2 + species19^2 + species20^2)
+```
+
+####Simpson Reciprocal Index (Sample)
+```{r}
+species1 = 0/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species2 = 2/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species3 = 4/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species4 = 1/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species5 = 34/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species6 = 0/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species7 = 16/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species8 = 0/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species9 = 0/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species10 = 5/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species11 = 0/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species12 = 2/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species13 = 6/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species14 = 30/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species15 = 54/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species16 = 0/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species17 = 0/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species18 = 0/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species19 = 1/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+species20 = 0/(0+2+4+1+34+0+16+0+0+5+0+2+6+40+54+0+0+0+1+0)
+
+1 / (species1^2 + species2^2 + species3^2 + species4^2 + species5^2 + species6^2 + species7^2 + species8^2 + species9^2 + species10^2 + species11^2 + species12^2 + species13^2 + species14^2 + species15^2 + species16^2 + species17^2 + species18^2 + species19^2 + species20^2)
+```
+
+####Chao1 Richness Estimator (Community)
+```{r}
+20 + 4^2/(16*2)
+```
+
+####Chao1 Richness Estimator (Sample)
+```{r}
+11 + 2^2/(9*2)
+```
+
+###Part 4: Alpha-diversity functions in R
+```{r}
+library(vegan)
+
+Community_total1_diversity = 
+  Community_total1 %>% 
+  select(name, occurences) %>% 
+  spread(name, occurences)
+
+Community_total1_diversity
+
+diversity(Community_total1_diversity, index="invsimpson")
+specpool(Community_total1_diversity)
+```
