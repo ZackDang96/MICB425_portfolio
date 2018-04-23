@@ -14,31 +14,31 @@ knitr::opts_chunk$set(echo = TRUE)
 ###Module 1 Portfolio Check
 
 * Installation check
-    + Completion status:
+    + Completion status: 
     + Comments:
 * Portfolio repo setup
     + Completion status: 
     + Comments:
 * RMarkdown Pretty html Challenge
-    + Completion status:
+    + Completion status: 
     + Comments:
 * Evidence worksheet_01
-    + Completion status:
+    + Completion status: 
     + Comments:
 * Evidence worksheet_02
-    + Completion status:
+    + Completion status: 
     + Comments:
 * Evidence worksheet_03
-    + Completion status:
+    + Completion status: 
     + Comments:
 * Problem Set_01
-    + Completion status:
+    + Completion status: 
     + Comments:
 * Problem Set_02
-    + Completion status:
+    + Completion status: 
     + Comments:
 * Writing assessment_01
-    + Completion status:
+    + Completion status: 
     + Comments:
 * Additional Readings
     + Completion status:
@@ -539,6 +539,46 @@ Proceedings of the National Academy of Sciences,95(12), 6578-6583. doi:10.1073/p
 
 ##Module 1 References
 
+Achenbach, J. (2012, January 2). Spaceship Earth: A new  view of environmentalism. The Washington Post. Retrieved February 15, 2018, from: https://www.washingtonpost.com/national/health-science/spaceship-earth-a-new-view-of-environmentalism/2011/12/29/gIQAZhH6WP_story.html?noredirect=on&utm_term=.46b9533858cf
+
+Canfield, D. E., Glazer, A. N., & Falkowski, P. G. (2010). The Evolution and Future of Earth's
+Nitrogen Cycle. Science,330(6001), 192-196. doi:10.1126/science.1186120
+
+Falkowski, P. G., Fenchel, T., & Delong, E. F. (2008). The Microbial Engines That Drive
+Earth's Biogeochemical Cycles. Science,320(5879), 1034-1039. doi:10.1126/science.1153213
+
+Falkowski, P. G. (2000). The Global Carbon Cycle: A Test of Our Knowledge of Earth as a System. Science, 290(5490), 291-296. doi:10.1126/science.290.5490.291
+
+Johnson, Z. I., Zinser, E. R., Coe, A., McNulty, N. P., Woodward, E. M. S., Chisholm, S. W.
+(2006). Niche Partitioning Among Prochlorococcus Ecotypes Along Ocean-Scale Environmental Gradients. Science,311(5768), 1737-1740. doi:10.1126/science.1118052
+
+Kallmeyer, J., Pockalny, R., Adhikari, R. R., Smith, D. C., & Dhondt, S. (2012). Global distribution of microbial abundance and biomass in subseafloor sediment. Proceedings of the National Academy of Sciences, 109(40), 16213-16216. doi:10.1073/pnas.1203849109
+
+Kasting, J. F., & Siefert, J. L. (1984). The evolution of the prebiotic atmosphere. Origins of
+Life,14(1-4), 75-82. doi:10.1007/bf00933642
+
+Leigh, M. B., Prouzova, P., Mackova, M., Macek, T., Nagle, D. P., & Fletcher, J. S. (2006).
+Polychlorinated Biphenyl (PCB)-Degrading Bacteria Associated with Trees in a PCB-Contaminated Site. Applied and Environmental Microbiology,72(4), 2331-2342. doi:10.1128/aem.72.4.2331-2342.2006
+
+Leopold, A. C. (1997). The Land Ethic by Aldo Leopold. A Sand County Almanac, 193-198. doi:10.1007/978-1-4615-6003-6_19
+
+Longhurst, A., Sathyendranath, S., Platt, T., & Caverhill, C. (1995). An estimate of global
+primary production in the ocean from satellite radiometer data. Journal of Plankton Research,17(6), 1245-1271. doi:10.1093/plankt/17.6.1245
+
+Mooney, C. (2016, January 07). Scientists say humans have now brought on an entirely new
+geologic epoch. Retrieved February 16, 2018, from https://www.washingtonpost.com/news/energy-environment/wp/2016/01/07/scientists-say-humans-have-now-brought-on-an-entirely-new-geologic-epoch/
+
+Nisbet, E. G., & Sleep, N. H. (2001). The habitat and nature of early life. Nature,409(6823),
+1083-1091. doi:10.1038/35059210
+
+Rockström. J., Steffen. W., Noone. K., Persson. Å., Chapin. F. S., Lambin. E. F., Lenton. T. M.,
+Scheffer. M., Folke. C., Schellnhuber H. J.. (2009). A safe operating space for humanity. Nature,461, 472-475
+
+Waters, C. N., Zalasiewicz, J., Summerhayes, C., Barnosky, A. D., Poirier, C., Galuszka, A., . . . Wolfe, A. P. (2016, January 08). The Anthropocene is functionally and stratigraphically distinct from the Holocene. Retrieved from http://science.sciencemag.org/content/351/6269/aad2622
+
+Whitman, W. B., Coleman, D. C., & Wiebe, W. J. (1998). Prokaryotes: The unseen majority.
+Proceedings of the National Academy of Sciences,95(12), 6578-6583. doi:10.1073/pnas.95.12.6578
+
 #Module 2
 
 ###Module 2 Portfolio Check
@@ -553,7 +593,45 @@ Proceedings of the National Academy of Sciences,95(12), 6578-6583. doi:10.1073/p
     + Completion status:
     + Comments: 
 
-## Problem set_03 ??Metagenomics: Genomic Analysis of Microbial Communities??
+## Evidence worksheet_04 "Bacterial Rhodopsin Gene Expression"
+
+###Learning objectives: 
+
+.	Discuss the relationship between microbial community structure and metabolic diversity
+
+.	Evaluate common methods for studying the diversity of microbial communities
+
+.	Recognize basic design elements in metagenomic workflows
+
+### General Questions:
+
+#### What were the main questions being asked?
+
+1. What are the main structural and functional features of photorhodopsin expressed in E. coli?
+
+2. How can HGT effect the acquisition of photorhodopsin expression genes and metabolic capabilities?
+
+3. What can be concluded about the functional diversity and ubiquity of photorhodopsin?
+
+#### What were the primary methodological approaches used?
+
+A marine picoplankton large-insert Fosmid genomic library was surveyed for in vivo expression of PR photorhodopsin systems and following phenotypic analysis, genetic and biochemical analyses were ued to confirm the gene functions. 
+ 
+#### Summarize the main results or findings. 
+
+Two clones were found to possess in vivo PR photosystem gene clusters on fosmids. These photosystems have loght-dependent proton translocation activity and could strongly induce retinal biosynthesis in E. coli, driven by photophosphorylation. These genes are also capable of being transferred via HGT.
+ 
+#### Do new questions arise from the results?
+
+1. How are PR photosystem expression induced? Are they expressed during times of nutritional starvation and low ATP production?
+
+2. How often do HGT events of PR photosystems occur in nature and just how widespread is the distribution and variation of these genes?
+
+#### Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+
+The background information was sufficient and the methods explained adequately. However, the authors quantify growth based on the increase of ATP, and they assume that this ATP is used for biosynthetic purposes under their lab conditions, which may not be reflected in nature. In these lab conditions, the evidence supports the conclusions made, however whether these results are representative of the case in more dynamic environments such as in nature, is unclear.
+
+## Problem set_03 Metagenomics: Genomic Analysis of Microbial Communities
 
 ### Learning objectives: 
 Specific emphasis should be placed on the process used to find the answer. Be as comprehensive as possible e.g. provide URLs for web sources, literature citations, etc.  
@@ -608,6 +686,14 @@ funcitonal screens (biochemical tests), 3rd generation sequencing (nanopore) goo
 
 ###Module 2 References
 
+Madsen, E. L. (2005). Identifying microorganisms responsible for ecologically significant biogeochemical processes. Nature Reviews Microbiology, 3(5), 439-446. doi:10.1038/nrmicro1151
+
+Martinez, A., Bradley, A. S., Waldbauer, J. R., Summons, R. E., & Delong, E. F. (2007). Proteorhodopsin photosystem gene expression enables photophosphorylation in a heterologous host. Proceedings of the National Academy of Sciences, 104(13), 5590-5595. doi:10.1073/pnas.0611470104
+
+Mewis, K., Taupp, M., & Hallam, S. J. (2011). A High Throughput Screen for Biomining Cellulase Activity from Metagenomic Libraries. Journal of Visualized Experiments, (48). doi:10.3791/2461
+
+Wooley, J. C., Godzik, A., & Friedberg, I. (2010). A Primer on Metagenomics. PLoS Computational Biology, 6(2). doi:10.1371/journal.pcbi.1000667
+
 #Module 3
 
 ###Module 3 Portfolio Check
@@ -639,46 +725,37 @@ funcitonal screens (biochemical tests), 3rd generation sequencing (nanopore) goo
 
 ####What were the main questions being asked?
 
-- comparison of 3 different strains of E. coli (2 uropathogenic, 1 non-pathogenic)
-- compare genetic similarity/OTU similarity between pathogenic and non-pathogenic strains
-- determine conserved pathogenicity associated genes/PAIs 
-how lateral gene transfer contributes to the emergence of new uropathogenic E. coli strains
+1. Between 3 different strains of E. coli (2 uropathogenic, 1 non-pathogenic), what degree of genetic similarity/OTU similarity can be observed?
+
+2. What degree of conservation of pathogenicity associated genes/PAIs exists between the strains?
+
+3. How lateral gene transfer contributes to the emergence of new uropathogenic E. coli strains?
 
 ####What were the primary methodological approaches used?
 
-clones and sequencing:
-- Used pBluescript and M13Janus to prepare whole-genome libraries using genomic DNA
-- Data are collected from Applied Biosystem ABI377 and 3700n automated seqeuncers.
-- SEQMANII used to assemble sequence data
-- Primer wlaking, PCR-based analysis used to finish sequencing opposite ends of linking clones
-- XhoI optical map of whole genome used to order contigs and confirm contig structure, and act as map of whole genome
+Clones and sequencing methods:
 
-sequence analysis and annotation:
-- Annotated genome sequence in MAGPIE, defined ORFs in GLIMMER
-- BLAST used to search for predicted proteins
-- shotgun sequencing and PCR
-- Used 90% identity match of CFT073 in either MG1655 or EDL933, 90% of both genes in alignments, and lack of equivalent match in other location in CFT073 genome used to infer orthology.
+Used pBluescript and M13Janus to prepare whole-genome libraries with genomic DNA. Data was collected from Applied Biosystem ABI377 and 3700n automated seqeuncers.SEQMANII was used to assemble sequence data and primer walking and PCR-based analysis used to finish sequencing opposite ends of linking clones. A XhoI optical map of whole genome was used to order contigs and confirm contig structure, and acts as map of whole genomes.
+
+Sequence analysis and annotation methods:
+
+The genome sequence was annotated in MAGPIE and defined the ORFs in GLIMMER. Protein BLAST was used to search for predicted proteins and shotgun sequencing and PCR were performed. A 90% identity match of CFT073 in either MG1655 or EDL933, 90% of both genes in alignments, and lack of equivalent match in other location in CFT073 genome used to infer orthology.
 
 ####Summarize the main results or findings. 
 
-- The CFT073 genome is circular, 5 million-bp chromosomal sequence with seven times coverage.
-- Selective pressure to conserve PAI in infection and host colonization
-- The backbone is evolutionarily conserved through vertical gene transfer 
-- Specific regions for insertion of infectious genes are conserved (location is conserved, not specificity to genes)
-- Great genetic diversity between PAIs of pathogenic/pathogenic strains, pathogenic/non-pathogenic
-- Each type/species of E. coli possess combinations of island genes that confer its characteristic lifestyle or its pathogenicity. For example, the uropathogenic strain, CFT073 acquired an  island gene that allows it to infect the urinary tract and bloodstream without compromising its ability to colonize the intestine.
-- "net result is a mosaic genome structure in which newly acquired genes in each of the E. coli types are placed into a framework made of genes that distinguishes E. coli from its closer relatives such as S. enterica"
+The CFT073 genome is a circular, 5 million-bp chromosomal sequence with seven times coverage. Selective pressure was found to result in increased conservation of PAIs in infection and host colonization. The backbone sequence is evolutionarily conserved through vertical gene transfer and remains relatively constant. Specific regions for insertion of infectious genes are conserved, however only the locations are conserved, but not the specificity of the genes. There is great genetic diversity between PAIs of pathogenic versus pathogenic strains and also of pathogenic versus non-pathogenic strains. Each strain of E. coli possesses combinations of island genes that confers its characteristic lifestyle and associated level of pathogenicity. The uropathogenic strain CFT073, for example, acquired an  island gene that allows it to infect the urinary tract and bloodstream without compromising its ability to colonize the intestine. The net result is the formation of a mosaic genome structure where newly acquired genes are inserted into the backbone framework sequence. This allows for E. coli to be distinguished from its close relatives such as Salmonella enterica.
 
 ####Do new questions arise from the results?
 
-- How similar/different are pathogenic E. coli strains from other pathogens (ie. Shigella? Y. pestis)?
-- How can species be defined to account for frequent gain and loss of accessory genes ??? cannot simply define species by phenotypic analysis and low resolution mapping alone
-- Why hasn't there been any evidence of extensive genome reductions despite the fact that E.coli has been living commensualy in the intestinal system of animals, which are nutrient rich environments, for millions of years? 
+1. How similar/different are pathogenic E. coli strains from other pathogens such as Shigella and Y. pestis?
+
+2. How can species be defined to account for frequent gain and loss of accessory genes as we cannot simply define species by phenotypic analysis and low resolution mapping alone.
+
+3. Why hasn't there been any evidence of extensive genome reductions despite the fact that E.coli has been living as a commensal in the nutrient-rich intestinal system of animals for millenia? 
 
 ####Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
 
-- Overall gist was clear, however some of the extraneous details in the paper assumed that the reader had a good knowledge of E.coli genomics. 
-- Paper requires prior understanding of genetics (i.e. the selective pressures which led to the retention of rare codons).
+The overall results, figures and conclusions of the paper were clear, however some of the extraneous details in the paper assumed that the reader had a good knowledge of E.coli genomics and prior understanding of genetics. More background information on E. coli pathogenic strains and genomes is needed, as well as some explanation of genetics jargon. 
  
 ###Part 2: Learning objectives: 
 
@@ -688,10 +765,9 @@ sequence analysis and annotation:
 
 .	Differentiate between mobile elements and different modes of gene transfer
 
-Based on your reading and discussion notes, explain the meaning and content of the following figure derived from the comparative genomic analysis of three E. coli genomes by Welch et al. Remember that CFT073 is a uropathogenic strain and that EDL933 is an enterohemorrhagic strain. Explain how this study relates to your understanding of ecotype diversity. Provide a definition of ecotype in the context of the human body. Explain why certain subsets of genes in CFT073 provide adaptive traits under your ecological model and speculate on their mode of vertical descent or gene transfer.
+####Based on your reading and discussion notes, explain the meaning and content of the following figure derived from the comparative genomic analysis of three E. coli genomes by Welch et al. Remember that CFT073 is a uropathogenic strain and that EDL933 is an enterohemorrhagic strain. Explain how this study relates to your understanding of ecotype diversity. Provide a definition of ecotype in the context of the human body. Explain why certain subsets of genes in CFT073 provide adaptive traits under your ecological model and speculate on their mode of vertical descent or gene transfer.
 
-- Ecotype: varying tissues types (each type of human cell has different receptors and secrete different and surrounding factors that make up the extracellular environment
-- Ecotype in human body -> skin colour depends on the altitude; microbiota in digestive system -> diet;
+An ecotype in the context of the human body is defined as subtle genetic and phenotypic differences between the populations that inhabit a specific tissue environment The great variation between different tissue types in the human body results in many ecotypes. The differences are characterized by the presence of different receptors and secreted factors that comprise the extracellilar matrix of each tissue. Thus, with different tissues, comes a range of different factors that affect the ability of microbes to colonize them. Each specific tissue environment creates a niche that allows only some organisms to survive there. Parallel to this, pathogenic microbes possess a set of genes that allow them to infect only a specific type of tissue, as seen with the strains mentiones in the paper. These adaptive traits result in increased fitness, thus encouraging their persistence through vertical descent, however it is likely that new, non-pathogenic strains could acquire these genes through HGT and become able to infect the tissue type. The figure shows that between pathogenic strains, many pathogenicity-associated genes are located in the same loci while maintaining a common backbone sequence. It is likely that these genes in the same locus were derived from a common ancestral gene.
 
 ##Problem Set_04
 
@@ -981,3 +1057,21 @@ We acknowledge that HGT, among other challenges, can make the characterization a
 19. Coombs, J. M., & Barkay, T. (2004). Molecular Evidence for the Evolution of Metal Homeostasis Genes by Lateral Gene Transfer in Bacteria from the Deep Terrestrial Subsurface. Applied and Environmental Microbiology,70(3), 1698-1707. doi:10.1128/aem.70.3.1698-1707.2004
 20. Sogin, M. L., Morrison, H. G., Huber, J. A., Welch D. M., Huse, S. M., Neal, P. R., Arrieta, J. M., Herndl, G. J. (2006). Microbial diversity in the deep sea and the underexplored "rare biosphere" PNAS,103(32), 12115-12120. 
 21. Lawrence, J. G. (2002). The Dynamics of Bacterial Genomes. Horizontal Gene Transfer,95-110. doi:10.1016/b978-012680126-2/50013-x
+
+###Module 3 References
+
+Callahan, B. J., Mcmurdie, P. J., & Holmes, S. P. (2017). Exact sequence variants should replace operational taxonomic units in marker gene data analysis. doi:10.1101/113597
+
+Gaudet, A. D., Ramer, L. M., Nakonechny, J., Cragg, J. J., & Ramer, M. S. (2010). Small-Group Learning in an Upper-Level University Biology Class Enhances Academic Performance and Student Attitudes Toward Group Work. PLoS ONE, 5(12). doi:10.1371/journal.pone.0015821
+
+Hallam, S. J., Torres-Beltrán, M., & Hawley, A. K. (2017). Monitoring microbial responses to ocean deoxygenation in a model oxygen minimum zone. Scientific Data, 4, 170158. doi:10.1038/sdata.2017.158
+
+Hawley, A. K., Torres-Beltrán, M., Zaikova, E., Walsh, D. A., Mueller, A., Scofield, M., . . . Hallam, S. J. (2017). A compendium of multi-omic sequence information from the Saanich Inlet water column. Scientific Data, 4, 170160. doi:10.1038/sdata.2017.160
+
+Kunin, V., Engelbrektson, A., Ochman, H., & Hugenholtz, P. (2010). Wrinkles in the rare biosphere: Pyrosequencing errors can lead to artificial inflation of diversity estimates. Environmental Microbiology, 12(1), 118-123. doi:10.1111/j.1462-2920.2009.02051.x
+
+Sogin, M. L., Morrison, H. G., Huber, J. A., Welch D. M., Huse, S. M., Neal, P. R., Arrieta, J. M., Herndl, G. J. (2006). Microbial diversity in the deep sea and the underexplored "rare biosphere" PNAS,103(32), 12115-12120.
+
+Torres-Beltrán, M., Hawley, A. K., Capelle, D., Zaikova, E., Walsh, D. A., Mueller, A., . . . Hallam, S. J. (2017). A compendium of geochemical information from the Saanich Inlet water column. Scientific Data, 4, 170159. doi:10.1038/sdata.2017.159
+
+Welch, R. A., Burland, V., Plunkett III, G., Redford, P., Roesch, P., Rasko, D., Buckles, E. L. , . . . Blattner F. R. (2002). Extensive mosaic structure revealed by the complete genome sequence of uropathogenic Escherichia coli. Proc. Natl Acad. Sci. USA 99, 17020-17024
